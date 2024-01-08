@@ -1,25 +1,32 @@
-/* common style  */
-.banner {
-  max-width: 1320px;
-  margin: 50px auto 120px auto;
-}
-
 main {
   max-width: 1320px;
-  margin: 120px auto;
+  margin: 140px auto;
+}
+
+.btn-primary {
+  padding: 18px 35px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f00;
+  color: white;
+  border: none;
 }
 
 /* banner section  */
+.banner {
+  max-width: 1320px;
+  margin: 50px auto;
+}
 
 .banner-title {
-  border-radius: 18px;
+  border-radius: 30px;
   padding: 120px 344px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("/resources/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   align-items: center;
-  width: auto;
 }
 
 .banner h3 {
@@ -28,6 +35,8 @@ main {
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
+  padding-bottom: 0px;
+  padding-top: 20px;
 }
 
 .banner h2 {
@@ -64,4 +73,101 @@ main {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 48px;
+}
+
+/* welcome banner section  */
+
+.welcome-banner {
+  border-radius: 30px;
+  padding: 68px 130px;
+  margin: 120px auto;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-banner-title {
+  font-family: Merriweather;
+  color: white;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.welcome-banner-info {
+  color: white;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+/* meeting place  */
+
+.meeting-place {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 380px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.meeting-place h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 38px;
+}
+
+.meeting-text-color {
+  color: black;
+}
+
+/* best offers  */
+
+.best-offers {
+  display: flex;
+}
+
+.best-offers-heading {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.best-offers-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.best-offers-info {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.circle-container {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.circle {
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  text-align: center;
 }
