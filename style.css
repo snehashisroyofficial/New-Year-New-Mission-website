@@ -135,8 +135,7 @@ main {
 
 .best-offers {
   display: flex;
-  width: 100%;
-  gap: 50px;
+  justify-content: space-around;
 }
 
 #best-offers-heading {
@@ -162,8 +161,6 @@ main {
 }
 
 .circle {
-  width: 463px;
-  height: 463px;
   border: 20px solid red;
   border-radius: 50%;
   display: flex;
@@ -178,21 +175,6 @@ main {
   padding: 20px;
 }
 
-/* .circle {
-  width: 463px;
-  height: 463px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 20px solid red;
-  border-radius: 50%;
-}
-
-.circle img {
-  width: 364px;
-  height: 364px;
-  border-radius: 50%;
-} */
 .best-offers-column h2 {
   color: #f00;
   font-family: Inter;
