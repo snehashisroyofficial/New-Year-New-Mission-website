@@ -342,3 +342,58 @@ h1 {
   align-items: center;
   gap: 0px;
 }
+
+/* footer area  */
+
+.footer-area {
+  padding: 120px 140px;
+  background: #070211;
+}
+
+.top-text-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.footer-text-color {
+  color: white;
+}
+
+.right-text-area li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#footer-icons {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-hr {
+  background: rgba(255, 255, 255, 0.15);
+  opacity: 15%;
+}
+
+.footer-image-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px auto;
+}
+
+.buttom-text-area {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
