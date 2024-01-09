@@ -273,3 +273,72 @@ h1 {
 #box-padding-left {
   padding-left: 24px;
 }
+
+/* newslatter section  */
+
+.newslatter-container {
+  padding: 80px 212px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+#news-image {
+  display: block;
+  margin: 0 auto 40px auto;
+  width: auto;
+}
+
+.newslatter-container .text-area h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.newslatter-container .text-area P {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+#email-input {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 25px 267px 25px 30px;
+  border-style: none;
+  background-color: #fff;
+  border-radius: 50px 0px 0px 50px;
+}
+
+#email-input:focus {
+  outline: none;
+}
+
+#subscribe-input {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 24px 56px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border-style: none;
+}
+
+.subscribe-input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
