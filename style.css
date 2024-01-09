@@ -1,6 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* common style  */
+
 main {
   max-width: 1320px;
-  margin: 140px auto;
+  margin: 0px auto;
+}
+
+section {
+  margin: 120px 0px;
+}
+/* banner section  */
+
+.banner {
+  border-radius: 30px;
+  margin: 50px auto;
+  padding: 160px 340px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
 }
 
 .btn-primary {
@@ -13,48 +53,23 @@ main {
   border: none;
 }
 
-/* banner section  */
-.banner {
-  max-width: 1320px;
-  margin: 50px auto;
-}
-
-.banner-title {
-  border-radius: 30px;
-  padding: 120px 344px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("/resources/Banner\ Image.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  align-items: center;
-}
-
-.banner h3 {
-  color: #fff;
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 32px;
-  font-weight: 400;
-  padding-bottom: 0px;
-  padding-top: 20px;
-}
-
-.banner h2 {
-  color: #fff;
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 72px;
-  font-weight: 900;
-}
-
 /* featured section  */
 
 .featured-section {
+  margin: 120px 140px;
   font-family: inter;
   text-align: center;
 }
 
-.featured-title h1 {
+.featured-titl-main {
+  max-width: 1320px;
+  margin: 0px auto;
+}
+
+section {
+  margin: 120px 0px;
+}
+h1 {
   color: #f00;
   font-size: 88px;
   font-weight: 700;
@@ -79,7 +94,6 @@ main {
 
 .welcome-banner {
   border-radius: 30px;
-  padding: 68px 130px;
   margin: 120px auto;
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("/resources/Vectorrr.png");
@@ -89,7 +103,11 @@ main {
   justify-content: space-between;
 }
 
-.welcome-banner-title {
+.text-section {
+  padding: 126px 40px 140px 126px;
+}
+
+.text-section h2 {
   font-family: Merriweather;
   color: white;
   font-size: 64px;
@@ -97,7 +115,7 @@ main {
   margin-bottom: 20px;
 }
 
-.welcome-banner-info {
+.text-section p {
   color: white;
   font-family: Inter;
   font-size: 18px;
@@ -105,86 +123,6 @@ main {
   margin-bottom: 40px;
 }
 
-/* meeting place  */
-
-.meeting-place {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
-  padding: 100px 380px;
-  text-align: center;
-  border-radius: 30px;
-}
-
-.meeting-place h3 {
-  color: #f00;
-  font-family: Inter;
-  font-size: 32px;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin-bottom: 38px;
-}
-
-.meeting-text-color {
-  color: black;
-}
-
-/* best offers  */
-
-.best-offers {
-  display: flex;
-  justify-content: space-around;
-}
-
-#best-offers-heading {
-  color: #f00;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-#best-offers-title {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  text-transform: capitalize;
-}
-
-#best-offers-info {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.circle {
-  border: 20px solid red;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle img {
-  width: 364x;
-  height: 364px;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-.best-offers-column h2 {
-  color: #f00;
-  font-family: Inter;
-  font-size: 48px;
-  font-weight: 700;
-}
-
-.best-offers-column p {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
+.banner-image {
+  padding: 68px 138px 68px 0px;
 }
